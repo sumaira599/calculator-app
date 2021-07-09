@@ -1,0 +1,36 @@
+
+.calculatorBody{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    transition:  0,25px;
+    border-radius: 10px;
+
+
+}
+.calcInput{
+    width: 93%;
+    background-color:skyblue;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.btn{
+    border: none;
+    background: white;
+    border-radius: 10px;
+    width:40px;
+    font-size: 20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    height: 30px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+
+.btn:hover{
+      background-color:skyblue;
+}
